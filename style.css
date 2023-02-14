@@ -1,0 +1,32 @@
+@font-face {
+    font-family: kanit;
+    src: url(Kanit-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: pretty;
+    src: url(Letrabonita.ttf);
+}
+body{
+background-color: rgb(104, 104, 104);
+}
+.titulo{
+font-family: pretty;
+font-size: 470%;
+text-align: center;
+color: rgb(30, 29, 94);;
+}
+.dbox{
+color: rgb(0, 0, 0);
+}
+.diario{
+text-align: center;
+font-family: kanit;
+}
+#diariobox{
+    max-width: 20%;
+    background-color: rgb(84, 117, 226);
+    border-radius: 7px;
+    border-color:solid black 60px ;
+    font-family: pretty;
+    font-size: x-large;
+}
